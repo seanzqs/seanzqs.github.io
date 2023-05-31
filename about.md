@@ -3,6 +3,8 @@ layout: page
 title: About
 ---
 
-**Not Pure Poole** is a simple, beautiful, and powerful Jekyll theme for blogs. It is built on [Poole](https://github.com/poole/poole) and [Pure](https://purecss.io/).
+## Welcome to Sean's page! 
 
-For more information about Not Pure Poole, please browse the [README](https://github.com/vszhub/not-pure-poole) file.
+I am a machinea learning engineer with experience in both backend server and buidling machine learning models and pipeline.
+I'm exploring the opportunities in LLM and web3.
+My page will mainly record my study notes.
