@@ -1,4 +1,4 @@
-# this is seanzqs's personal page powered by [not-pure-poole](https://github.com/vszhub/not-pure-poole)
+## seanzqs's personal page powered by [not-pure-poole](https://github.com/vszhub/not-pure-poole)
 
 env setup on macos:
 ```
