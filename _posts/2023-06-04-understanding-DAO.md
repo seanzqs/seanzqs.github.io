@@ -2,7 +2,7 @@
 layout: post
 title: "Understanding DAO"
 date: 2023-06-04 11:42:00 +0800
-tags: [githubpages]
+tags: [blockchain]
 ---
 
 ## what is DAO in crypto world? How is DAO formed and how does DAO work. Can you explain with example
