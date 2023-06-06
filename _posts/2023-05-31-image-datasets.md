@@ -8,7 +8,12 @@ tags: [aigc,dataset]
 ## image datasets compilation
 
 real image dataset:
-* [laion-aesthetics](https://laion.ai/blog/laion-aesthetics/) containing the 600Mil image dataset used by stable diffusion: aesthetics scores >=5
+* [laion-aesthetics](https://laion.ai/blog/laion-aesthetics/) containing the 600Mil image dataset used by stable diffusion: aesthetics scores >=5  
+(download parquet files in data folder and run the following command to start downloading:)  
+```
+img2dataset --url_list data --input_format "parquet" --url_col "URL" --caption_col "TEXT" --output_format files --output_folder laion_images --processes_count 1 --thread_count 64 --resize_mode no
+```
+[official img2dataset command examples](https://github.com/rom1504/img2dataset/blob/main/dataset_examples/laion-aesthetic.md)
 
 stable diffusion generated image dataset：
 * [stable-diffusion-wordnet-dataset](https://www.kaggle.com/datasets/astoeckl/stable-diffusion-wordnet-dataset) save file as html, there will be a link to download. 27.8GB

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch data to device"
+title: "PyTorch data to device"
 date: 2023-06-05 20:00:00 +0800
 tags: [pytorch, python]
 ---

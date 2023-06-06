@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch data to device"
+title: "ResNet bottleneck structure"
 date: 2023-06-05 10:00:00 +0800
 tags: [pytorch, python]
 ---

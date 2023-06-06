@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch foldername as data label"
+title: "PyTorch foldername as data label"
 date: 2023-06-05 22:12:00 +0800
 tags: [pytorch, python]
 ---

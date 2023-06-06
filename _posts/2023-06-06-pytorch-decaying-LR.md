@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch decaying lr"
+title: "PyTorch decaying lr"
 date: 2023-06-06 18:12:00 +0800
 tags: [pytorch,python]
 ---

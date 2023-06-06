@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "steps to build a github site like this"
+title: "Steps to build a github site like this"
 date: 2023-05-31 11:42:00 +0800
 tags: [githubpages]
 ---

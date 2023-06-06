@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "pytorch finetune last layer only"
+title: "PyTorch finetune last layer only"
 date: 2023-06-06 18:11:00 +0800
 tags: [pytorch,python]
 ---
