@@ -2,7 +2,7 @@
 layout: post
 title: "pytorch finetune last layer only"
 date: 2023-06-06 18:11:00 +0800
-tags: [pytorch]
+tags: [pytorch,python]
 ---
 
 ## I have this resnet50 code and have a pretrained weight file to load. I would like to finetune the model only on the last fc layer, how to do that?
@@ -94,6 +94,8 @@ for param in resnet.parameters():
 # `fc` is your last layer name
 for param in resnet.fc.parameters():
     param.requires_grad = True
+
+resnet = resnet.to(device)
 ```
 
 Now, you can use this model for fine-tuning on your dataset. Remember to only use the parameters with `requires_grad = True` for the optimizer, which you can access with `resnet.parameters()`. This will not include the parameters of the frozen layers in the computation of gradients, effectively "freezing" them:
